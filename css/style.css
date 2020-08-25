@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+.navigation {
+  border-top: 1px solid gray;
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.nav-buttons {
+  display: block;
+  padding: 14px 16px;
+  font-size: 20px;
+  transition: all 1s;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-buttons:hover {
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+}
+
+.hidden-navbar {
+  display: none;
+  z-index: 1000;
+  float: right;
+  width: 250px;
+  height: 100vh;
+  background-color: black;
+}
+.portfolio {
+  margin-bottom: 20px;
+}
+.row {
+  margin: 0 auto;
+  width: 80%;
+}
+.hidden-navbar-list {
+  text-align: center;
+  text-decoration: none;
+}
+
+.hidden-navbar-button {
+  display: block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.hidden-navbar-button:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+.portfolio-images {
+  width: 100%;
+}
+.portfolio-images img {
+  border-radius: 5px;
+  width: 100%;
+  margin: 5px;
+  padding: 0;
+  filter: brightness(50%);
+  transition: filter 1s;
+}
+
+.portfolio-images img:hover {
+  filter: brightness(100%);
+}
+
+.about {
+  padding: 50px;
+  width: 80%;
+  background-color: rgb(32, 32, 32);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.about-header {
+  display: block;
+  margin: 20px auto;
+  background-color: gray;
+  width: 95px;
+  border-radius: 5px;
+}
+.about-header h1 {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.about-core-image {
+  margin: 0 auto;
+}
+.about-core-image img {
+  width: 250px;
+  border-radius: 50%;
+}
+.details {
+  text-align: center;
+  margin-top: 20px;
+}
+.details h1 {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.details p {
+  margin: 0 auto;
+
+  letter-spacing: 150%;
+  width: 600px;
+  color: white;
+  font-size: 20px;
+  max-width: 600px;
+}
+
+p a {
+  color: white;
+}
+
+p a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.technical-skills {
+  margin: 20px auto;
+
+  max-width: 600px;
+}
+
+.technical-skills-heading {
+  text-align: center;
+  width: 205px;
+  margin: 0 auto;
+}
+
+.technical-skills h2 {
+  color: white;
+}
+.score {
+  max-width: 600px;
+  width: 100%;
+}
+.score h5 {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.resume-button a {
+  text-decoration: none;
+  background-color: #4caf50;
+  color: white;
+  transition: all 1s;
+}
+
+.resume-button a:hover {
+  text-decoration: none;
+  background-color: white;
+  transition: all 1s;
+  color: #333;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.services {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  color: white;
+}
